@@ -27,8 +27,8 @@ This project presents an AI-powered parking spot detection system built using YO
 
 ### 1. Clone the Repository
 ```bash
-git clone <repo-link>
-cd <project-folder>
+git clone https://github.com/Wahab3917/Smart-Parking.git
+cd Smart-Parking
 ```
 
 ### 2. Backend Setup
