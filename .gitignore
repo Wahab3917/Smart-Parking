@@ -1,0 +1,26 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Static result images
+backend/static/*.jpg
+backend/static/*.png
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
