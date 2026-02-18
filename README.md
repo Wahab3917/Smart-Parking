@@ -17,11 +17,11 @@ This project presents an AI-powered parking spot detection system built using YO
 
 ## Dataset & Training Details
 
+The project's goal was to demonstrate the complete end-to-end workflow from data labeling to model training and application development.
+
 - Parking lot images were obtained from the [CNRPark + EXT dataset](http://cnrpark.it/)
-- The images were labeled manually using [makesense.ai](https://www.makesense.ai/)
-- YOLOv5 model trained on **20 labeled images**
-- The model's accuracy and performance were modest due to the limited dataset
-- The dataset was intentionally kept small to demonstrate a complete custom end-to-end workflow from data collection to deployment
+- A limited subset of images was labeled manually using [makesense.ai](https://www.makesense.ai/)
+- Trained weights are included in the repo (`best.pt`)
 
 ## How to Run
 
@@ -53,14 +53,9 @@ Start the frontend server:
 npm run dev
 ```
 
-### 4. Test the Model
-Test the model using the test images located at assets/Test Images.
-
-## Screenshots
+## Screenshot
 
 <div>
-  <img src="assets/Interface Images/interface-1.png" width="600" alt="Default Interface"/>
-  <br>
-  <img src="assets/Interface Images/interface-2.png" width="600" alt="Output with Detected Spots"/>
+  <img src="assets/interface.png" width="600" alt="Default Interface"/>
 </div>
 
